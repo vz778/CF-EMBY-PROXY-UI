@@ -33,10 +33,10 @@ crons = ["0 * * * *"]
 
 [[kv_namespaces]]
 binding = "ENI_KV" # 代码优先读 ENI_KV，其次读 KV
-id = "你的_KV_ID" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
+id = "f7e79f1c91f9421aa2695d2f3bc67020" # 你的 KV 命名空间 ID (请替换为实际的 32 位字母数字组合)
 
 # D1 数据库绑定声明 (D1 Database Binding)
 [[d1_databases]]
 binding = "DB" # 代码中调用该数据库的变量名
-database_name = "你的数据库名称" # 你的 D1 数据库的名称
-database_id = "你的_D1_ID" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
+database_name = "cf_emby_proxy" # 你的 D1 数据库的名称
+database_id = "47a1fb2b-f3e9-4c23-a9fb-bdfbbc424e0b" # 你的 D1 数据库 ID (请替换为实际的 UUID 格式)
